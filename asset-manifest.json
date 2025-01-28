@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fast-food/static/css/main.05dca3ed.css",
+    "main.css": "/fast-food/static/css/main.1bc3cbe1.css",
     "main.js": "/fast-food/static/js/main.1d115e84.js",
     "static/media/img1.jpg": "/fast-food/static/media/img1.82b1ac4cbdff6d9c5260.jpg",
     "static/media/icon4.jpg": "/fast-food/static/media/icon4.890c3e8c68b02a665994.jpg",
@@ -19,11 +19,11 @@
     "static/media/t-3.jpg": "/fast-food/static/media/t-3.42ab3f3a8b664edd3af5.jpg",
     "static/media/offerOne.jpg": "/fast-food/static/media/offerOne.161ea8a3b4b162dff0cf.jpg",
     "index.html": "/fast-food/index.html",
-    "main.05dca3ed.css.map": "/fast-food/static/css/main.05dca3ed.css.map",
+    "main.1bc3cbe1.css.map": "/fast-food/static/css/main.1bc3cbe1.css.map",
     "main.1d115e84.js.map": "/fast-food/static/js/main.1d115e84.js.map"
   },
   "entrypoints": [
-    "static/css/main.05dca3ed.css",
+    "static/css/main.1bc3cbe1.css",
     "static/js/main.1d115e84.js"
   ]
 }
