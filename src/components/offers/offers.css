@@ -21,7 +21,6 @@
 
 .offers-boxes .box .offer-img {
     width: 120px;
-    height: 120px;
     overflow: hidden;
     border-radius: 50%;
     background-color: var(--color-one);
