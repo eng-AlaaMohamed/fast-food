@@ -1,0 +1,66 @@
+.menu-section {
+    padding: var(--section-padding) 0px;
+}
+
+.menu-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+}
+
+.card {
+    background-color: var(--color-two);
+    overflow: hidden;
+    box-shadow: 5px 8px 5px #eee;
+}
+
+.card-photo {
+    overflow: hidden;
+    border-bottom-left-radius: 30px;
+}
+
+.photo {
+    width: 100%;
+    transition: var(--main-transition);
+}
+
+.photo:hover {
+    transform: scale(1.5);
+}
+
+.card-info {
+    color: white;
+    padding: 20px;
+}
+
+.card-description {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.price-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-icon .icon {
+    background-color: var(--color-one);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-btn {
+    margin: 30px auto;
+    display: block;
+}
+
+@media(max-width: 556px) {
+    .menu-section {
+        padding: 0 12px;
+    }
+}

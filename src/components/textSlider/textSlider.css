@@ -1,0 +1,48 @@
+.text-slider {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    display: none;
+}
+
+.text-boxes {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: var(--main-transition);
+    width: 3500px;
+}
+
+.text-box {
+    max-width: 600px;
+}
+
+.text-box .title {
+    color: var(--color-one);
+    font-weight: bold;
+}
+
+.text-box .describtion {
+    line-height: 2;
+    max-width: 100%;
+    color: white;
+}
+
+.hero-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+@media (min-width: 772px) {
+    .hero-text {
+        display: none;
+    }
+
+    .text-slider {
+        display: block !important;
+    }
+
+}

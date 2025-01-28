@@ -1,0 +1,99 @@
+.footer-section {
+    padding: var(--section-padding) 0px;
+    background-color: var(--color-two);
+}
+
+.footer-section-content {
+    color: white;
+}
+
+.footer-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.box {
+    text-align: center;
+}
+
+.box-title {
+    font-family: var(--main-font);
+    font-size: 50px;
+}
+
+.location,
+.phone,
+.email {
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.box .des {
+    color: #999;
+    line-height: 2;
+}
+
+.box .open-time {
+    display: flex;
+    flex-direction: column;
+    color: #999;
+}
+
+.sochial-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.sochial-icon i {
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: var(--main-transition);
+}
+
+.sochial-icon i:hover {
+    color: var(--color-one);
+}
+
+.copy-right {
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copy-right span {
+    color: var(--color-one);
+    font-family: var(--main-font);
+}
+
+@media (max-width: 768px) {
+    .footer-boxes {
+        gap: 20px;
+    }
+
+    .footer-boxes .box:last-child {
+        margin-bottom: 20px;
+    }
+
+    .box-title {
+        font-size: 30px;
+    }
+
+    .box .des,
+    .box .open-time span,
+    .location,
+    .phone,
+    .email {
+        font-size: 15px;
+    }
+
+    .sochial-icon i {
+        font-size: 18px;
+    }
+
+    .copy-right {
+        font-size: 14px;
+    }
+}

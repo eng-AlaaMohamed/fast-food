@@ -1,0 +1,72 @@
+.bookAtable-section {
+    padding: var(--section-padding) 0;
+}
+
+.bookAtable-title {
+    text-align: start;
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 50px;
+}
+
+.form input,
+select {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form input::placeholder,
+select::placeholder {
+    font-size: 14px;
+    transition: var(--main-transition);
+}
+
+.form input:focus,
+select:focus {
+    outline: 1px solid var(--main-hover);
+}
+
+.form input:focus::placeholder,
+select:focus::placeholder {
+    opacity: 0;
+}
+
+.btn {
+    background-color: var(--color-one);
+    color: white;
+    font-size: 18px;
+}
+
+.google-maps {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 10px #ccc;
+    height: 335px;
+}
+
+.google-maps iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 568px) {
+    .bookAtable-section {
+        padding: var(--section-padding) 12px;
+    }
+
+    .section-content {
+        display: block;
+    }
+
+    .form {
+        margin-bottom: 30px;
+    }
+}
