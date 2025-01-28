@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/eng-AlaaMohamed/fast-food/static/css/main.84ef25c3.css",
+    "main.js": "/eng-AlaaMohamed/fast-food/static/js/main.85b8c07a.js",
+    "static/media/img1.jpg": "/eng-AlaaMohamed/fast-food/static/media/img1.82b1ac4cbdff6d9c5260.jpg",
+    "static/media/icon4.jpg": "/eng-AlaaMohamed/fast-food/static/media/icon4.890c3e8c68b02a665994.jpg",
+    "static/media/about-img.png": "/eng-AlaaMohamed/fast-food/static/media/about-img.508c5fee37c35d64064b.png",
+    "static/media/offerTwo.jpg": "/eng-AlaaMohamed/fast-food/static/media/offerTwo.490df34ff7bd24c3f53d.jpg",
+    "static/media/t-1.jpg": "/eng-AlaaMohamed/fast-food/static/media/t-1.6783d1e5273e15e224ab.jpg",
+    "static/media/icon3.jpg": "/eng-AlaaMohamed/fast-food/static/media/icon3.eacfcba10f5192a21efd.jpg",
+    "static/media/icon2.jpg": "/eng-AlaaMohamed/fast-food/static/media/icon2.790c09b37cc18c31198b.jpg",
+    "static/media/icon6.jpg": "/eng-AlaaMohamed/fast-food/static/media/icon6.e662e1cae1a00bc491b5.jpg",
+    "static/media/t-4.jpg": "/eng-AlaaMohamed/fast-food/static/media/t-4.cede4049d84e6ca8a6b7.jpg",
+    "static/media/icon1.jpg": "/eng-AlaaMohamed/fast-food/static/media/icon1.57d12498738447689f1d.jpg",
+    "static/media/icon5.jpg": "/eng-AlaaMohamed/fast-food/static/media/icon5.477a8313e9f9f366e17b.jpg",
+    "static/media/icon7.jpg": "/eng-AlaaMohamed/fast-food/static/media/icon7.26269ec19aec74dbfd92.jpg",
+    "static/media/t-2.jpg": "/eng-AlaaMohamed/fast-food/static/media/t-2.ca6cb98d0c0afa12ad26.jpg",
+    "static/media/icon8.jpg": "/eng-AlaaMohamed/fast-food/static/media/icon8.42e3f69c12ed33d35184.jpg",
+    "static/media/t-3.jpg": "/eng-AlaaMohamed/fast-food/static/media/t-3.42ab3f3a8b664edd3af5.jpg",
+    "static/media/offerOne.jpg": "/eng-AlaaMohamed/fast-food/static/media/offerOne.161ea8a3b4b162dff0cf.jpg",
+    "index.html": "/eng-AlaaMohamed/fast-food/index.html",
+    "main.84ef25c3.css.map": "/eng-AlaaMohamed/fast-food/static/css/main.84ef25c3.css.map",
+    "main.85b8c07a.js.map": "/eng-AlaaMohamed/fast-food/static/js/main.85b8c07a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84ef25c3.css",
+    "static/js/main.85b8c07a.js"
+  ]
+}
